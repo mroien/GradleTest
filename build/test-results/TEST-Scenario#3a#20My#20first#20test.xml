@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: My first test" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-07-20T19:01:43" hostname="mroiens-MacBook-Pro.local" time="0.01">
+  <properties/>
+  <testcase name="Given this is my first step" classname="Scenario: My first test" time="0.0"/>
+  <testcase name="When this is my second step" classname="Scenario: My first test" time="0.0"/>
+  <testcase name="Then this is my final step" classname="Scenario: My first test" time="0.0"/>
+  <testcase name="And I submit the form with valid data" classname="Scenario: My first test" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: My first test" time="0.12"/>
+  <system-out><![CDATA[Before set up
+This is my first step
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

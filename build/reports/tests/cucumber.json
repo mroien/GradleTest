@@ -1,0 +1,433 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 347011,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.testSetUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "My first test",
+        "description": "",
+        "id": "proof-of-concept-that-my-framework-works;my-first-test",
+        "after": [
+          {
+            "result": {
+              "duration": 74442,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.afterTestRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 100720513,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "this is my first step",
+            "match": {
+              "location": "MyStepdefs.this_is_my_first_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97462,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "this is my second step",
+            "match": {
+              "location": "MyStepdefs.this_is_my_second_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83896,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "this is my final step",
+            "match": {
+              "location": "MyStepdefs.this_is_my_final_step()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5003506,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I submit the form with valid data",
+            "match": {
+              "location": "MyStepdefs.I_submit_the_form_with_valid_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Value"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Name",
+                  "Tim Oien"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Address",
+                  "Happy Land"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "Zip Code",
+                  "55409"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Email",
+                  "kfh@gmail.com"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Proof of concept that my framework works",
+    "description": "",
+    "id": "proof-of-concept-that-my-framework-works",
+    "keyword": "Feature",
+    "uri": "features/myFeature.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 97354,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.testSetUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Test Contact Page Heading",
+        "description": "",
+        "id": "second-outline-feature;test-contact-page-heading;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 153999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.afterTestRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 113150,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the site",
+            "match": {
+              "location": "MyStepdefs.I_am_at_the_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2298135,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on home_link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "home_link",
+                  "offset": 11
+                }
+              ],
+              "location": "MyStepdefs.I_click_on_Link(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163656,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I check I am on Home",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 16
+                }
+              ],
+              "location": "MyStepdefs.I_check_I_am_on_Title(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 267831,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I leave the browser",
+            "match": {
+              "location": "MyStepdefs.I_leave_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 115990,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.testSetUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Test Contact Page Heading",
+        "description": "",
+        "id": "second-outline-feature;test-contact-page-heading;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 56994,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.afterTestRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 109879,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the site",
+            "match": {
+              "location": "MyStepdefs.I_am_at_the_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157405,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on about_link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "about_link",
+                  "offset": 11
+                }
+              ],
+              "location": "MyStepdefs.I_click_on_Link(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161559,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I check I am on About Us",
+            "match": {
+              "arguments": [
+                {
+                  "val": "About Us",
+                  "offset": 16
+                }
+              ],
+              "location": "MyStepdefs.I_check_I_am_on_Title(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 262130,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I leave the browser",
+            "match": {
+              "location": "MyStepdefs.I_leave_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 594701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.testSetUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Test Contact Page Heading",
+        "description": "",
+        "id": "second-outline-feature;test-contact-page-heading;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 73873,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.afterTestRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 153948,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the site",
+            "match": {
+              "location": "MyStepdefs.I_am_at_the_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1346536,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on contact_us",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contact_us",
+                  "offset": 11
+                }
+              ],
+              "location": "MyStepdefs.I_click_on_Link(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 193439,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I check I am on Contact Us",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contact Us",
+                  "offset": 16
+                }
+              ],
+              "location": "MyStepdefs.I_check_I_am_on_Title(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 154715,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I leave the browser",
+            "match": {
+              "location": "MyStepdefs.I_leave_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "second outline feature",
+    "description": "",
+    "id": "second-outline-feature",
+    "keyword": "Feature",
+    "uri": "features/second.feature"
+  }
+]

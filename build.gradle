@@ -1,0 +1,68 @@
+group 'com.peoplenet'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile 'info.cukes:cucumber-java:1.2.3'
+    testCompile 'info.cukes:cucumber-junit:1.2.3'
+}
+
+test {
+    testLogging.showStandardStreams = true; //show the console output
+}
+
+// simple print times output
+task times << {
+	4.times {println "$it "}
+}
+
+// simple print statement
+task hello << {
+	println "Hello Tim!!"
+}
+
+// dependencie on hello task
+task intro(dependsOn: hello) << {
+	println "I'm Gradle"
+}
+
+// counter with var (gradle task1)
+4.times {counter ->
+	task "task$counter" << {
+	println "I'm task number $counter"
+	}
+}
+// manipulating exiting tasks (gradle task0)
+task0.dependsOn task2, task3
+
+// adding behavior
+// << alias for doLast
+
+task hello1 << {
+	println 'Hello Earth'
+}
+hello1.doFirst {
+	println 'Hello Venus'
+}
+hello1.doLast {
+	println 'Hello Mars'
+}
+hello1 << {
+	println 'Hello Jupiter'
+}
+
+// Shortcut notations
+task hello2 << {
+	println "Hello World!!"
+}
+hello2.doLast {
+	println "Greetings from the $hello2.name task."
+}
