@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 347011,
+  "duration": 353875,
   "status": "passed"
 });
 formatter.scenario({
@@ -79,32 +79,32 @@ formatter.match({
   "location": "MyStepdefs.this_is_my_first_step()"
 });
 formatter.result({
-  "duration": 100720513,
+  "duration": 100062753,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.this_is_my_second_step()"
 });
 formatter.result({
-  "duration": 97462,
+  "duration": 74886,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.this_is_my_final_step()"
 });
 formatter.result({
-  "duration": 83896,
+  "duration": 94386,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.I_submit_the_form_with_valid_data(DataTable)"
 });
 formatter.result({
-  "duration": 5003506,
+  "duration": 4285068,
   "status": "passed"
 });
 formatter.after({
-  "duration": 74442,
+  "duration": 77553,
   "status": "passed"
 });
 formatter.uri("features/second.feature");
@@ -185,7 +185,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 97354,
+  "duration": 97559,
   "status": "passed"
 });
 formatter.scenario({
@@ -226,7 +226,7 @@ formatter.match({
   "location": "MyStepdefs.I_am_at_the_site()"
 });
 formatter.result({
-  "duration": 113150,
+  "duration": 85166,
   "status": "passed"
 });
 formatter.match({
@@ -239,7 +239,7 @@ formatter.match({
   "location": "MyStepdefs.I_click_on_Link(String)"
 });
 formatter.result({
-  "duration": 2298135,
+  "duration": 2914431,
   "status": "passed"
 });
 formatter.match({
@@ -252,22 +252,22 @@ formatter.match({
   "location": "MyStepdefs.I_check_I_am_on_Title(String)"
 });
 formatter.result({
-  "duration": 163656,
+  "duration": 141683,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.I_leave_the_browser()"
 });
 formatter.result({
-  "duration": 267831,
+  "duration": 181203,
   "status": "passed"
 });
 formatter.after({
-  "duration": 153999,
+  "duration": 44846,
   "status": "passed"
 });
 formatter.before({
-  "duration": 115990,
+  "duration": 75824,
   "status": "passed"
 });
 formatter.scenario({
@@ -308,7 +308,7 @@ formatter.match({
   "location": "MyStepdefs.I_am_at_the_site()"
 });
 formatter.result({
-  "duration": 109879,
+  "duration": 113583,
   "status": "passed"
 });
 formatter.match({
@@ -321,7 +321,7 @@ formatter.match({
   "location": "MyStepdefs.I_click_on_Link(String)"
 });
 formatter.result({
-  "duration": 157405,
+  "duration": 132876,
   "status": "passed"
 });
 formatter.match({
@@ -334,22 +334,22 @@ formatter.match({
   "location": "MyStepdefs.I_check_I_am_on_Title(String)"
 });
 formatter.result({
-  "duration": 161559,
+  "duration": 85953,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.I_leave_the_browser()"
 });
 formatter.result({
-  "duration": 262130,
+  "duration": 168721,
   "status": "passed"
 });
 formatter.after({
-  "duration": 56994,
+  "duration": 63541,
   "status": "passed"
 });
 formatter.before({
-  "duration": 594701,
+  "duration": 79343,
   "status": "passed"
 });
 formatter.scenario({
@@ -390,7 +390,7 @@ formatter.match({
   "location": "MyStepdefs.I_am_at_the_site()"
 });
 formatter.result({
-  "duration": 153948,
+  "duration": 84301,
   "status": "passed"
 });
 formatter.match({
@@ -403,7 +403,7 @@ formatter.match({
   "location": "MyStepdefs.I_click_on_Link(String)"
 });
 formatter.result({
-  "duration": 1346536,
+  "duration": 156641,
   "status": "passed"
 });
 formatter.match({
@@ -416,18 +416,18 @@ formatter.match({
   "location": "MyStepdefs.I_check_I_am_on_Title(String)"
 });
 formatter.result({
-  "duration": 193439,
+  "duration": 148056,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.I_leave_the_browser()"
 });
 formatter.result({
-  "duration": 154715,
+  "duration": 142324,
   "status": "passed"
 });
 formatter.after({
-  "duration": 73873,
+  "duration": 40758,
   "status": "passed"
 });
 });
