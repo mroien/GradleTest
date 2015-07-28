@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="| about_link | About Us |" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-07-20T19:01:43" hostname="mroiens-MacBook-Pro.local" time="0.005">
+<testsuite name="| about_link | About Us |" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-07-21T16:02:23" hostname="mroiens-MacBook-Pro.local" time="0.005">
   <properties/>
   <testcase name="Given I am at the site" classname="| about_link | About Us |" time="0.0"/>
-  <testcase name="When I click on about_link" classname="| about_link | About Us |" time="0.001"/>
+  <testcase name="When I click on about_link" classname="| about_link | About Us |" time="0.0"/>
   <testcase name="Then I check I am on About Us" classname="| about_link | About Us |" time="0.0"/>
   <testcase name="And I leave the browser" classname="| about_link | About Us |" time="0.0"/>
-  <testcase name="classMethod" classname="| about_link | About Us |" time="0.009"/>
+  <testcase name="classMethod" classname="| about_link | About Us |" time="0.008"/>
   <system-out><![CDATA[Before set up
 I entered the correct site
 ]]></system-out>
