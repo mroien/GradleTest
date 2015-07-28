@@ -12,7 +12,11 @@ import java.util.List;
 
 /**
  * Created by toien on 7/13/2015.
+<<<<<<< HEAD
+ * This is Branch 4
+=======
  * Adding this for Branch1
+>>>>>>> FETCH_HEAD
  */
 
 
